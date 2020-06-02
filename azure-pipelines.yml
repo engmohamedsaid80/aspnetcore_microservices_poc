@@ -29,6 +29,7 @@ steps:
   displayName: 'Build the project - $(buildConfiguration)'
   inputs:
     command: 'build'
+    projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 - task: DotNetCoreCLI@2
   displayName: 'Run Unit Tests'
@@ -41,6 +42,7 @@ steps:
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
     command: 'publish'
+    projects: '**/*.csproj'
     zipAfterPublish: true
     arguments: '--configuration $(buildConfiguration) --output $(build.artifactsstagingdirectory)'
 
@@ -48,6 +50,4 @@ steps:
   displayName: 'Publish Artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
 
