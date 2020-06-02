@@ -39,9 +39,10 @@ namespace ECommerce.Api.Search.Services
                 }
                 var result = new
                 {
-                    Orders = ordersResult.orders,
-                    CustomerName = customersResult.IsSuccess ? customersResult.customer.Name: "Customer information is not available",
-                    CustomerAddress = customersResult.IsSuccess ? customersResult.customer.Address : "Customer information is not available"
+                    Customer = customersResult.IsSuccess ? 
+                                   customersResult.customer : 
+                                   new Models.Customer { Id = -1, Name = "Customer information is not available", Address = "Customer information is not available" },
+                    Orders = ordersResult.orders,                    
                 };
 
                 return (true, result);
