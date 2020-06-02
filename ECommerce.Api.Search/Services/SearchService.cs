@@ -21,7 +21,7 @@ namespace ECommerce.Api.Search.Services
         }
 
         public async Task<(bool IsSuccess, dynamic SearchResults)> SearchAsync(int customerId)
-        {
+        { // comment for testing
             var productsResult = await _productsService.GetProductsAsync();
             var customersResult = await _customersService.GetCustomerAsync(customerId);
             var ordersResult = await _orderService.GetOrdersAsync(customerId);
