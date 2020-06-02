@@ -44,7 +44,7 @@ namespace ECommerce.Api.Search.Services
             {
                 _logger?.LogError(ex.ToString());
 
-                return (true, null, ex.Message);
+                return (false, null, ex.Message);
             }
         }
     }

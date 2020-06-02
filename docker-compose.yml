@@ -1,0 +1,48 @@
+version: '3.4'
+
+services:
+  ecommerce.api.customers:
+    image: ${DOCKER_REGISTRY-}ecommerceapicustomers
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Customers/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6002:80"
+
+  ecommerce.api.orders:
+    image: ${DOCKER_REGISTRY-}ecommerceapiorders
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Orders/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6003:80"
+
+
+  ecommerce.api.products:
+    image: ${DOCKER_REGISTRY-}ecommerceapiproducts
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Products/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6001:80"
+
+
+  ecommerce.api.search:
+    image: ${DOCKER_REGISTRY-}ecommerceapisearch
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Search/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Services__ProductsUri=http://ecommerce.api.products
+      - Services__CustomersUri=http://ecommerce.api.customers
+      - Services__OrdersUri=http://ecommerce.api.orders
+    ports:
+      - "6004:80"
+

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BObIoOIIvunZZvlqb2jOAxF02hPt+C4G0NNAL3huxSASzowp+Uc5YQSBRXC3GEw+oR6T+kslQ6u1A1BN6oEUGw==",
+  "dgSpecHash": "yZIAc7up5+xr5F6WanZxCt0QUJxbdUs2rvcYH0aZknibLtWfF4K3V02UNmHNoL9F9OagdIeHriKMN2voo1im1w==",
   "success": true,
   "projectFilePath": "D:\\Workshop\\Microservices\\ECommerce\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "C:\\Users\\engmo\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
     "C:\\Users\\engmo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\engmo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\engmo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\engmo\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\engmo\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\engmo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",

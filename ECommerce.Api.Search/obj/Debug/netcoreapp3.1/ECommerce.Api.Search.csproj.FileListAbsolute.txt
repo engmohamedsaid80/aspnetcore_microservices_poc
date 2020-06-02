@@ -29,6 +29,6 @@ D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Polly.dll
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csproj.CopyComplete
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csproj.CoreCompileInputs.cache
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.MvcApplicationPartsAssemblyInfo.cache
-D:\Workshop\Microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csproj.CopyComplete

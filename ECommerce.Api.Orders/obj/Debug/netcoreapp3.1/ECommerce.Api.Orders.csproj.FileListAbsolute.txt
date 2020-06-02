@@ -34,8 +34,8 @@ D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\ECommerce.Api.Orders.pdb
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.csproj.CoreCompileInputs.cache
-D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.MvcApplicationPartsAssemblyInfo.cache
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.dll
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.pdb
 D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.genruntimeconfig.cache
+D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.csproj.CoreCompileInputs.cache
+D:\Workshop\Microservices\ECommerce\ECommerce.Api.Orders\obj\Debug\netcoreapp3.1\ECommerce.Api.Orders.MvcApplicationPartsAssemblyInfo.cache

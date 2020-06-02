@@ -22,10 +22,10 @@ namespace ECommerce.Api.Search.Services
 
         public async Task<(bool IsSuccess, dynamic SearchResults)> SearchAsync(int customerId)
         {
-            var ordersResult = await _orderService.GetOrdersAsync(customerId);
             var productsResult = await _productsService.GetProductsAsync();
             var customersResult = await _customersService.GetCustomerAsync(customerId);
-
+            var ordersResult = await _orderService.GetOrdersAsync(customerId);
+            
             if(ordersResult.IsSuccess)
             {
                 foreach(var order in ordersResult.orders)
