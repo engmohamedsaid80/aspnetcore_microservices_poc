@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  customers:
+    image: MSEcommercerdc/ecommerceapicustomers:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80/http"
+
+  orders:
+    image: MSEcommercerdc/ecommerceapiorders:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80/http"
+
+  products:
+    image: MSEcommercerdc/ecommerceapiproducts:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80/http"
+
+  search:
+    image: MSEcommercerdc/ecommerceapisearch:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Services__ProductsUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/products/
+      - Services__CustomersUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/customers/
+      - Services__OrdersUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/orders/
+    ports:
+      - "6004:80"
