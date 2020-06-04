@@ -26,8 +26,8 @@ services:
     image: MSEcommercerdc/ecommerceapisearch:latest
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - Services__ProductsUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/products/
-      - Services__CustomersUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/customers/
-      - Services__OrdersUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/orders/
+      - Services__ProductsUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/lil/products/
+      - Services__CustomersUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/lil/customers/
+      - Services__OrdersUri=http://msecommercerdc.westeurope.cloudapp.azure.com:19080/lil/orders/
     ports:
       - "6004:80"
